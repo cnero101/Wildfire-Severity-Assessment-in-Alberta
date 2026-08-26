@@ -34,7 +34,7 @@ This project maps burned area extent and severity using two publicly available d
 
 ## 📁 Repository Structure
 
-\`\`\`
+```
 Wildfire-Severity-Assessment-in-Alberta/
 │
 ├── burned_area_download.ipynb          # Sentinel-2 acquisition via STAC API
@@ -54,7 +54,7 @@ Wildfire-Severity-Assessment-in-Alberta/
             ├── 07_correlation_heatmap.png     # Feature correlations
             ├── 11_model_comparison.png        # Model comparison chart
             └── 12_confusion_matrices.png      # Confusion matrices
-\`\`\`
+```
 
 > **Not tracked (too large for Git):** Raw GeoTIFF files, .npy arrays, .parquet pixel datasets. All fully reproducible from the notebooks.
 
