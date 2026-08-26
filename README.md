@@ -126,6 +126,8 @@ Wildfire-Severity-Assessment-in-Alberta/
 
 Including dNBR produces ~99.99% accuracy with zero scientific validity. All reported metrics reflect models trained on raw spectral reflectance only.
 
+![Data Leakage (Critical Design Decision)](images/Data_Leakage.png)
+
 ---
 
 ## 💻 Setup
