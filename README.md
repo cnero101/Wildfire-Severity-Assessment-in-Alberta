@@ -18,6 +18,8 @@ This project maps burned area extent and severity using two publicly available d
 
 ---
 
+![End-to-end pipeline](images/end-to-end_pipeline.png)
+
 ## 🏆 Results
 
 | Model | Accuracy | F1 Score | Cohen's Kappa |
