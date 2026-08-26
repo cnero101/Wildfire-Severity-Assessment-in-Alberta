@@ -1,6 +1,6 @@
-# Wildfir Damage and Severity Assessment (Jasper, Alberta, 2024)
+# Wildfire Damage and Severity Assessment (Jasper, Alberta, 2024)
 
-Remote-sensing based assessment of the 2024 Jasper, Alberta wildfire: burned
+Remote-sensing-based assessment of the 2024 Jasper, Alberta wildfire: burned
 area detection from Sentinel-2 imagery, burn severity mapping, and
 machine-learning models that classify/predict burn severity from spectral
 and derived indices.
