@@ -97,16 +97,22 @@ Wildfire-Severity-Assessment-in-Alberta/
 | High severity | 249.8 km² | 13.0% |
 | **Total burned** | **516.7 km²** | **26.8%** |
 
+![Phase 1 — Data Preprocessing](images/Data_Preprocessing.png)
+
 ### Phase 2 — Machine Learning (per-pixel)
 - **Split:** Spatial column split (64% train / 16% val / 20% test) — no test pixel is adjacent to a training pixel
 - **Features:** 8 leak-free spectral features (raw bands + pre/post NDVI)
 - **Pipeline:** StandardScaler → model, fitted on training data only
 - **Models:** Logistic Regression · Random Forest (200 trees) · MLP (128→64→32)
 
+![Phase 2 — Machine Learning (per-pixel)](images/Machine_Learning.png)
+
 ### Phase 3 — Deep Learning (CNN)
 - **Patches:** 9×9 pixel windows · 237,079 total patches · majority vote label
 - **Architecture:** BurnCNN — 3 conv blocks (6→32→64→128) + Global Average Pooling + FC head with Dropout(0.4)
 - **Training:** 12 epochs · Adam lr=0.001 · StepLR · WeightedRandomSampler · 6.6 min CPU
+
+![Phase 3 — Deep Learning (CNN)](images/Deep_Learning.png)
 
 ---
 
