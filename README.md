@@ -1,4 +1,4 @@
-# Jasper Wildfire Impact Assessment (Alberta, 2024)
+# Wildfir Damage and Severity Assessment (Jasper, Alberta, 2024)
 
 Remote-sensing based assessment of the 2024 Jasper, Alberta wildfire: burned
 area detection from Sentinel-2 imagery, burn severity mapping, and
