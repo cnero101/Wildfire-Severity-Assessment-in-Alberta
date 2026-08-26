@@ -1,0 +1,29 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Anaconda project state (local DB, not project code)
+anaconda_projects/
+
+# Scratch/throwaway notebook
+Untitled.ipynb
+
+# Raw satellite imagery + source wildfire records (large, regenerate via burned_area_download.ipynb)
+alberta_burned_area_project/data/raw/
+
+# Large processed arrays / bulk datasets (regenerate by rerunning impact_assessment.ipynb)
+alberta_burned_area_project/data/processed/*.npy
+alberta_burned_area_project/data/processed/*.csv
+alberta_burned_area_project/data/processed/*.parquet
+!alberta_burned_area_project/data/processed/fire_metadata_jasper.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints

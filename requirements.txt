@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+
+# Machine learning
+scikit-learn
+torch
+
+# Geospatial / remote sensing
+rasterio
+geopandas
+pystac-client
+
+# Plotting
+matplotlib
+
+# Model persistence
+joblib
+
+# Notebook environment
+jupyterlab
