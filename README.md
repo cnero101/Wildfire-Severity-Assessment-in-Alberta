@@ -1,4 +1,3 @@
-@"
 # 🔥 Wildfire Severity Assessment — 2024 Jasper, Alberta
 
 > Burned area detection and severity mapping of the 2024 Jasper Wildfire Complex using Sentinel-2 satellite imagery, machine learning, and deep learning.
@@ -121,22 +120,22 @@ Including dNBR produces ~99.99% accuracy with zero scientific validity. All repo
 
 ## 💻 Setup
 
-\`\`\`bash
+```bash
 git clone https://github.com/cnero101/Wildfire-Severity-Assessment-in-Alberta.git
 cd Wildfire-Severity-Assessment-in-Alberta
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-\`\`\`
+```
 
 ---
 
 ## 🔁 Reproducing the Analysis
 
-\`\`\`
+```
 1. burned_area_download.ipynb   →  downloads Sentinel-2 GeoTIFFs via STAC API
 2. impact_assessment.ipynb      →  runs Phase 1, 2, and 3 end-to-end
-\`\`\`
+```
 
 All outputs are saved to alberta_burned_area_project/data/processed/ and reloaded automatically in subsequent steps.
 
