@@ -163,7 +163,7 @@ All outputs are saved to alberta_burned_area_project/data/processed/ and reloade
 
 ## 👥 Team
 
-P.M. · I.N. · A.S. — University of Calgary · DATA 607 · March 2026
+Paul Moynihan | Ifeanyi Njoku | Anmol Sharma — University of Calgary · DATA 607 · March 2026
 
 ---
 
