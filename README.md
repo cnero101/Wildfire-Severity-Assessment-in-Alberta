@@ -183,5 +183,4 @@ Paul Moynihan | Ifeanyi Njoku | Anmol Sharma — University of Calgary · DATA 6
 
 - Sentinel-2: [Copernicus Open Access](https://spacedata.copernicus.eu)
 - Alberta Wildfire CSV: [Open Government Licence — Alberta](https://open.alberta.ca/licence)
-- Code: MIT
-"@ | Out-File -FilePath "README.md" -Encoding utf8
+- Code: MIT | Out-File -FilePath "README.md" -Encoding utf8
