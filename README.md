@@ -69,6 +69,8 @@ Wildfire-Severity-Assessment-in-Alberta/
 - Pre-fire: before July 22, 2024 · Post-fire: after July 25, 2024
 - Licence: [Copernicus Open Access Policy](https://spacedata.copernicus.eu)
 
+![Sentinel-2 NIR Band](alberta_burned_area_project/data/processed/01_pre_post_NIR.png)
+
 ### Dataset 2 — Alberta Historical Wildfire Dataset
 - 27,828 records · 50 columns · 2006–2025
 - Three fires matched to satellite tile: **RWF064** (6,966 ha) · **RWF062** (4,051 ha) · **RWF063** (2,070 ha)
